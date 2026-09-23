@@ -1,0 +1,166 @@
+.header {
+  display:flex;
+  flex-direction:row;
+  height:56px;
+  justify-content:space-between;
+  z-index: 100;
+  position:fixed;
+  background-color: white;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:rgb(218, 215, 215);
+}
+
+body {
+  padding-top:80px;
+}
+
+.left-section {
+  display:flex;
+  align-items:center;
+  gap:26px;
+}
+
+.middle-section{
+  flex:1;
+  max-width:480px;
+  min-width: 150px;
+  display:flex;
+  align-items:center;
+  margin-right:20px;
+  margin-left:20px;
+}
+
+
+.search-bar {
+  border-radius:2px;
+  box-shadow : inset 1px 1px 3px 
+  rgba(0,0,0,0.05);
+  flex:1;
+  min-width: 0px;
+  height:35px;
+  padding-left:15px;
+  font-size: medium;
+  border-width: 1px;
+  border-style:solid;
+  border-color:rgb(184, 182, 182);
+}
+
+.search-bar::placeholder {
+  font-family:Roboto, Arial;
+}
+
+.search-icon {
+  width: 24px;
+  background-color: transparent;
+  padding-left: 12px;
+}
+
+.search-button {
+  height:39px;
+  width: 60px;
+  background-color: rgb(247, 246, 246);
+  border-style: solid;
+  border-width: 1px;
+  border-color:rgb(184, 182, 182);
+  display: flex;
+  align-items: center;
+  margin-left:-1px;
+  cursor:pointer;
+}
+
+
+.right-section {
+  width:180px;
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+
+
+.hamburger-icon {
+  width:24px;
+  margin-left:22px;
+  cursor:pointer;
+}
+
+.youtube-icon {
+  width:90px;
+  cursor:pointer;
+}
+
+
+
+
+.mic-icon {
+  width:25px;
+  object-fit: cover;
+  object-position:2px;
+  background-color: transparent;
+  
+}
+
+.mic-button {
+  background-color:rgb(231, 230, 230);
+  width:40px;
+  height:40px;
+  border-radius:50px;
+  border-style:none;  
+  display:flex;
+  align-items:center;
+  margin-left:8px;
+  cursor:pointer;
+}
+
+.upload-icon {
+  width:24px;
+  cursor:pointer;
+}
+
+.apps-icon {
+  width:24px;
+  cursor:pointer;
+}
+
+.notification-icon {
+  width:24px;
+  height: 24px;
+  cursor:pointer;
+}
+
+.profile-img {
+  object-fit:cover;
+  width:32px;
+  height:32px;
+  border-radius:50px;
+  cursor:pointer;
+}
+
+.bell-div {
+  position:relative;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.notification-count {
+  position:absolute;
+  right:-1px;
+  top:0;
+  background-color: rgb(170, 7, 7);
+  color:white;
+  margin: 0;
+  padding: 0;
+  padding-right:4px;
+  padding-left:4px;
+  border-radius:50px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-family: Roboto,arial;
+  font-size: 10px;
+}
