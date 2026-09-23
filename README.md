@@ -17,7 +17,7 @@ A simple YouTube Clone website created using **HTML and CSS**.
 * Responsive layout
 
 
-## 👨‍💻 Author
+##  Author
 
 **Vijeth Rai**
 
